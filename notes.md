@@ -19,11 +19,18 @@ use the free guide!
 
 ### 4. [Installing VS Code](https://www.udemy.com/course/modern-javascript/learn/lecture/8913648#content)
 
-At first this may seem rudundant, recursive pherhaps
+- At first this may seem rudundant, recursive pherhaps
+
+- plugins: bable and I added atom key map 
 
 
-### 5. [Installing Node.js]()
-### 6. [Windows]()
+### 5. [Installing Node.js](https://www.udemy.com/course/modern-javascript/learn/lecture/8913650#content)
+
+- suprise, install nodejs.
+
+
+### 6. [Windows]() - SKIP
+
 ### 7. [Into to the Terminal]()
 ### 8. [Hello JavaScript](https://www.udemy.com/course/modern-javascript/learn/lecture/8913662#content)
 
@@ -45,7 +52,11 @@ very basic
 
 create [numbers.js](basics/numbers.js)
 
-### 12. []()
+### 12. [More on Variables](https://www.udemy.com/course/modern-javascript/learn/lecture/8913680#content)
+
+[file](basics/variables.js)
+
+
 ### 13. []()
 ### 14. []()
 ### 15. []()
@@ -84,7 +95,12 @@ make [file](functions/functions-101.js). It's pretty basic.
 
 
 
-### 22. [Undefined and Null]()
+### 22. [Undefined and Null](https://www.udemy.com/course/modern-javascript/learn/lecture/9862276#content)
+
+reserved keywords.
+
+undefined is set by js
+null is set by programmer.
 
 
 ### 23. [Multiple Arguments and Argument Defaults]()
