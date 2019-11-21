@@ -2,9 +2,9 @@
 
 ### 1. [Welcome](https://www.udemy.com/course/modern-javascript/learn/lecture/8913642#overview)
 
-Three parts
+- Three parts
 
-90 challenges
+- 90 challenges
 js script
 task manager
 note taking app
@@ -16,6 +16,9 @@ use the free guide!
 ## Section 2: Setting up your Machine
 
 ### 3. [Section Intro:](https://www.udemy.com/course/modern-javascript/learn/lecture/8913646#overview)
+
+getting computer set up
+end with JS app.
 
 ### 4. [Installing VS Code](https://www.udemy.com/course/modern-javascript/learn/lecture/8913648#content)
 
@@ -31,7 +34,12 @@ use the free guide!
 
 ### 6. [Windows]() - SKIP
 
-### 7. [Into to the Terminal]()
+### 7. [Into to the Terminal](https://www.udemy.com/course/modern-javascript/learn/lecture/8913660#content)
+
+- about the terminal
+
+- skip if you know the terminal
+
 ### 8. [Hello JavaScript](https://www.udemy.com/course/modern-javascript/learn/lecture/8913662#content)
 
 create basics dir and [hello-world](basics/hello-world.js) directory.
@@ -40,6 +48,8 @@ create basics dir and [hello-world](basics/hello-world.js) directory.
 ## Section 3: JavaScript Basics: Variables and Flow Control
 
 ### 9. [Section Intro: JavaScript Basics](https://www.udemy.com/course/modern-javascript/learn/lecture/8913672#content)
+
+- First programming intensive section.
 
 
 ### 10. [Strings and Variables](https://www.udemy.com/course/modern-javascript/learn/lecture/8913676#content)
@@ -65,9 +75,9 @@ create [numbers.js](basics/numbers.js)
 
 ### 18. [Variable Scope: Part I](https://www.udemy.com/course/modern-javascript/learn/lecture/8913696#content)
 
-create [scope.js](basics/scope.js)
+created [scope.js](basics/scope.js)
 
-JS uses [Lexical Scope](https://stackoverflow.com/questions/1047454/what-is-lexical-scope) (Static Scope)
+JS uses [Lexical Scope](https://stackoverflow.com/questions/1047454/what-is-lexical-scope) ( aka Static Scope)
 
 Two types of scope: global and local
 
@@ -142,6 +152,27 @@ pretty basic. `.length` is a property, not a function. I think I knew that.
 
 ### 39. [Manipulating Arrays with Methods](https://www.udemy.com/course/modern-javascript/learn/lecture/9862368#content)
 
+### 40. [Looping](https://www.udemy.com/course/modern-javascript/learn/lecture/9862370#content)
+
+```js
+arr.forEach(cb(cv, i, arr ))
+```
+
+callback - a function passed to a function.
+
+### 41. [The For Loop](https://www.udemy.com/course/modern-javascript/learn/lecture/9957026#content)
+
+for is more flexable, you need an array for `forEach()`
+
+### 42. [Searching Arrays: P1](https://www.udemy.com/course/modern-javascript/learn/lecture/9862372#content)
+
+.indexOf(element) won't work on objects
+
+.findIndex(cb)
+
+### 43 [Searching Arrays: P2](https://www.udemy.com/course/modern-javascript/learn/lecture/9862374#content)
+
+
 ## Section 7: Javascript in the Browser
 
 ### 47. [Section Intro]()
@@ -166,6 +197,59 @@ The Document is the HTML document
 The Object is a JavaScript Object. - So we have a JS object that models our HTML document. 
 
 The object is called `document`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Section 8: Data Storage, Libraries, and More
 
