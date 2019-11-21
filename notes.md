@@ -150,15 +150,55 @@ arrays are essential to any modern application
 
 pretty basic. `.length` is a property, not a function. I think I knew that.
 
-### 39. [Manipulating Arrays with Methods](https://www.udemy.com/course/modern-javascript/learn/lecture/9862368#content)
+### 39. [Manipulating Arrays with Methods](https://www.udemy.com/course/modern-javascript/learn/lecture/9862368#content "13:17")
 
-### 40. [Looping](https://www.udemy.com/course/modern-javascript/learn/lecture/9862370#content)
+running through array methods
+made new [file](arrays/notes39.js)
+
+[.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+- **adds** one or more elements to the end of an array and 
+- returns the new length
+
+[.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+- **removes** the last element from an array 
+- returns that element 
+- changes the length
+
+[.unshift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+- adds one or more elements to the beginning of an array 
+- returns the new length
+
+[.shift()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+- removes the first element from an array and 
+- returns that removed element
+- changes the length
+
+[.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
 ```js
-arr.forEach(cb(cv, i, arr ))
+var arrDeletedItems = array.splice(start, deleteCount, item-n)
 ```
+*start* - The index at which to start changing the array.
 
-callback - a function passed to a function.
+deleteCount - An integer indicating the number of elements in the array to remove from *start*.
+
+item-n - The elements to add to the array, beginning from start. If you do not specify any elements, splice() will only remove elements from the array.
+
+return value - An array containing the deleted elements. If only one element is removed, an array of one element is returned. If no elements are removed, an empty array is returned.
+
+To swap one item for another, just use bracket notation!!!
+
+array[index of item to swap] = new item
+
+[challenege](arrays/challenge39.js)
+
+### 40. [Looping over arrays](https://www.udemy.com/course/modern-javascript/learn/lecture/9862370#content "9:21")
+
+[.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/foreach)
+- executes a provided function once for each array element.
+
+see my experiment in the [file](arrays/notes40.js). Can't figure out what cbthis is for.
 
 ### 41. [The For Loop](https://www.udemy.com/course/modern-javascript/learn/lecture/9957026#content)
 
