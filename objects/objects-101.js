@@ -3,3 +3,5 @@ let myBook = {
     author: "George Orwell",
     pageCount: 375
 }
+
+console.log(myBook)

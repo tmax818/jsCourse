@@ -125,7 +125,12 @@ null is set by programmer.
 
 ### 27. [Section Intro: JavaScript Objects](https://www.udemy.com/course/modern-javascript/learn/lecture/9862314#content)
 
-### 28. [Object Basics](https://www.udemy.com/course/modern-javascript/learn/lecture/9862324#content)
+object allows us to store related pices of info in the same structure.
+
+allows us to model things from the real world. ie books, cars, people etc.
+
+
+### 28. [Object Basics](https://www.udemy.com/course/modern-javascript/learn/lecture/9862324#content "13:02")
 
 ~~~javascript
 let myBook = {
@@ -133,11 +138,25 @@ let myBook = {
     author: "George Orwell",
     pageCount: 375
 }
-
 ~~~
 
-### 29. [Using Objects with Functions](https://www.udemy.com/course/modern-javascript/learn/lecture/9862326#content)
 
+```js
+
+let object = {
+    property: "value",
+    property: "value"
+}
+```
+
+### 29. [Using Objects with Functions](https://www.udemy.com/course/modern-javascript/learn/lecture/9862326#content "11:30")
+
+new [file](objects/object-functions.js)
+
+
+##### return an object from a function
+
+- allows us to return multiple values
 
 
 ## Section 6: JavaScript Arrays
